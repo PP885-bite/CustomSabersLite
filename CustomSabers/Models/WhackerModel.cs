@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace CustomSabersLite.Models;
+namespace CustomSabersLite.Models;camSpade.saber
 
 internal class WhackerModel
 {
@@ -11,8 +11,8 @@ internal class WhackerModel
     [JsonConstructor]
     public WhackerModel(string pcFileName, WhackerDescriptor descriptor, WhackerConfig config)
     {
-        FileName = pcFileName;
+        FileName = pcFileName;camSpade.saber
         Descriptor = descriptor;
-        Config = config;
+        Config = config;camSpade
     }
 }
